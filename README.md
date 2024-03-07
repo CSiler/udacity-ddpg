@@ -6,6 +6,8 @@ This project uses the Reacher environment based on the Unity engine. The agent w
 
 The action space therefore consists of four parameters controlling torque applied to each joint in the range -1 to +1. The environment responds with 33 state variables describing position, rotation, velocity and angular velocity of the arm.
 
+The environment is considered solved when an average score of at least 30 points has been reached over 100 consecutive periods.
+
 ## Getting Started
 
 Create a new conda environment via
